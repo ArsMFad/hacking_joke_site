@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 120px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}
+
+.arrow {
+    margin: auto;
+    background-image: url(../img/arrow.png);
+    width: 500px;
+    height: 500px;
+}
+
+a {
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}

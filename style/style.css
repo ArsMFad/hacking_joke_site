@@ -1,0 +1,460 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #242329;
+}
+
+h3 {
+    color: #484652;
+    font-size: 20px;
+}
+
+.head_container {
+    width: 1170px;
+    margin: auto;
+    height: 720px;
+}
+
+.parallax {
+    height: 720px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/parallax1.jpg);
+}
+
+.menu { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    line-height: 50px;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: green;
+}
+
+.main_h {
+    font-size: 75px;
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    border: 0;
+    width: 175px;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(1, 56, 1);
+}
+
+
+
+
+
+
+
+
+
+
+.welcome {
+    background-color: #18171B;
+}
+
+.content_welcome {
+    margin: auto;
+    display: flex;
+    width: 1170px;
+}
+
+.text_welcome_tags {
+    color: white;
+    font-size: 76px;
+}
+
+.join_us_h {
+    color: green;
+}
+
+.welcome_p{
+    color: #787488;
+}
+
+.text_welcome {
+    width: 500px;
+}
+
+.photos {
+    width: 670px;
+    display: flex;
+}
+
+.photo1, .photo2, .photo3 {
+    width: 223px;
+    height: 500px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.photo1 {
+    background-image: url(../img/photo1.jpg);
+    background-position-x: -100px;
+}
+
+.photo2 {
+    background-image: url(../img/photo2.jpg);
+}
+
+.photo3 {
+    background-image: url(../img/photo3.jpg);
+    background-position-y: 150px;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+.hacking_work {
+    background-color: #242329;
+}
+
+.content {
+    width: 1170px;
+    margin: auto;
+}
+
+.hacking_jobs_h {
+    font-size: 75px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.lil_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.money {
+    height: 600px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hacking_jobs_h2 {
+    color: green;
+    font-size: 30px;
+}
+
+.money_text {
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 370px;
+}
+
+.money_photo {
+    background-image: url(../img/money.gif);
+    background-position-x: -75px;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 370px;
+}
+
+.pafos_girl {
+    height: 600px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pafos_girl_photo {
+    background-image: url(../img/pafos_girl.jpg);
+    height: 300px;
+    width: 370px;
+}
+
+.pafos_girl_text {
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 370px;
+}
+
+.anon {
+    height: 600px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.anon_text {
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 370px;
+}
+
+.anon_photo {
+    background-image: url(../img/black_hat.jpg);
+    height: 300px;
+    width: 370px;
+    background-position-x: -70px;
+    background-repeat: no-repeat;
+}
+
+.hackerspace {
+    height: 270px;
+    width: 1170px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.hackerspace_text {
+    text-align: center;
+    background-color: white;
+    height: 270px;
+    width: 370px;
+}
+
+.hackerspace_photo {
+    background-image: url(../img/hackerspace.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    height: 270px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+.events {
+    margin: 0;
+    background-color: #18171b;
+}
+
+.events_container {
+    width: 1170px;
+    margin: auto;
+}
+
+.event_h {
+    color: white;
+    font-size: 76px;
+}
+
+.event_cards {
+    display: flex;
+}
+
+.eliot {
+    width: 570px;
+}
+
+.eliot_photo {
+    width: 570px;
+    height: 300px;
+    background-image: url(../img/mr_hackerman.png);
+    background-repeat: no-repeat;
+}
+
+.signature {
+    background-color:limegreen;
+    width: 570px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.time_date {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #242329;
+    color: limegreen;
+}
+
+.day {
+    width: 125px;
+    font-size: 50px;
+    display: block;
+}
+
+.month {
+    font-size: 27px;
+}
+
+.post_sign {
+    vertical-align: middle;
+    color: #242329;
+    margin-left: 15%;
+}
+
+.post_sign_text {
+    font-size: 30px;
+}
+
+.hackerman {
+    width: 570px;
+    margin-left: 25px;
+}
+
+.hackerman_photo {
+    width: 570px;
+    height: 300px;
+    background-image: url(../img/hackerman.png);
+}
+
+
+
+
+
+
+
+
+
+
+.comments {
+    background-color: #242329;
+    padding: 0;
+    border: 0;
+}
+
+.comments_blockquote {
+    font-size: 20px;
+    height: 190px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments_h {
+    color: green;
+    margin-left: 15%;
+    height: 25px;
+}
+
+.carol_peterson,
+.helen_wood,
+.jeff_hayes,
+.emi_powell {
+    display: flex;
+    width: 572px;
+    height: 270px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.carol_peterson_photo,
+.helen_wood_photo,
+.jeff_hayes_photo,
+.emi_powell_photo {
+    width: 168px;
+    height: 270px;
+}
+
+.carol_peterson_photo {
+    background-image: url(../img/first.jpg);
+}
+
+
+.helen_wood_photo {
+    background-image: url(../img/second.jpg);
+}
+
+.jeff_hayes_photo {
+    background-image: url(../img/third.jpg);
+}
+
+.emi_powell_photo {
+    background-image: url(../img/fourth.jpg);
+}
+
+
+
+
+
+
+
+
+
+.menus {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_foot,
+.social_foot,
+.contacts_foot {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer_h {
+    color: #777777;
+}
+
+.footer_blockquote {
+    color: white;
+}
+
+.menu_foot_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.menu_foot_item {
+    color: green;
+    text-decoration: none;
+}
+
+.menu_foot_item:hover {
+    color: limegreen;
+}
+
+.copyright {
+    color: #777777;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
